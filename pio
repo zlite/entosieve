@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export PLATFORMIO_CORE_DIR="${SCRIPT_DIR}/.platformio"
+export PATH="${SCRIPT_DIR}/.venv/bin:${PATH}"
+export VIRTUAL_ENV="${SCRIPT_DIR}/.venv"
+exec "${SCRIPT_DIR}/.venv/bin/pio" "$@"

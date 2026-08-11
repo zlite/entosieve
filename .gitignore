@@ -1,0 +1,4 @@
+.pio
+.platformio
+.venv
+.pio-python-shim

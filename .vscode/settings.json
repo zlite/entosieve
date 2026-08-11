@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "platformio-ide.useBuiltinPIOCore": true,
+  "platformio-ide.useBuiltinPython": true,
+  "platformio-ide.customPATH": "/home/chris/entosieve/.pio-python-shim/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+  "terminal.integrated.env.linux": {
+    "PATH": "/home/chris/entosieve/.venv/bin:${env:PATH}",
+    "PLATFORMIO_CORE_DIR": "/home/chris/entosieve/.platformio",
+    "VIRTUAL_ENV": "/home/chris/entosieve/.venv"
+  }
+}
