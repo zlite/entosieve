@@ -1,4 +1,4 @@
-This is an upgrade to the Entosieve, an automated bug-sorter. The original used custom electronics with an Arduino and analog controls. This updates the electronics to an ESP32 with a built-in stepper motor board that connects via Wifi to a local network and creates a Web app for fully digital control. Because it uses M5Stack hardware, it also has a screen and buttons for local/manual control if needed. 
+This is an upgrade to the [Entosieve](https://pubmed.ncbi.nlm.nih.gov/40066677/), an automated bug-sorter. The original used custom electronics with an Arduino and analog controls. This updates the electronics to an ESP32 with a built-in stepper motor board that connects via Wifi to a local network and creates a Web app for fully digital control. Because it uses M5Stack hardware, it also has a screen and buttons for local/manual control if needed. 
 
 The advantage of digital control is that it can be monitored and controlled remotely and all settings and run metrics can by recorded as a part of fully digital pipeline in a lab. 
 
